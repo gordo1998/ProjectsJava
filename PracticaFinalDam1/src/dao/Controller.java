@@ -10,9 +10,10 @@ import java.sql.Statement;
 
 
 public class Controller {
-	private final String URL = "jdbc:mysql://localhost:3306/bibliotecaJava";
-	private final String USER = "root";
-	private final String PASSWORD = "J.barreda98";
+	//YOU HAVE TO PUT YOUR BASEDATA ACCES
+	private final String URL = "jdbc:mysql://localhost:3306/bibliotecaJava";//CHANGE PORT IF YOU USE OTHER.
+	private final String USER = "";//PUT YOUR USER
+	private final String PASSWORD = "";//PUT YOUR PASSWORD IF YOU HAVE. IF YOU DON'T HAVE, PASS
 	//Esta es una clase COMPUESTA por otra clase llamada Connection, ya que sin esta clase la conexión a la base de datos no es posible.
 	private Connection conexion;
 	/**
