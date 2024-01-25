@@ -1,3 +1,21 @@
-This is my finall java project of my programming course.
-This program it's a library. It have all the basics funcionalities that I learned on the course.
+This a library program that it manage books and authors
+
+This program it's not finish yet, it need to modify routes because it's not adapted for other machines. But
+for the moment you can download and import in your IDE (Netbeans or Eclipse).
+
+If you want to run successfully all the project you have to change all the route of image, icons, etc. 
+The default route is:
+C:/Users/Usuario/eclipse-workspace_tres/practicaFinalDam1/..."
+You only need this part:
+... /practicaFinalDam1
+When you download the project you have to change in the code the route of the images, etc., in the path you marked 
+when downloading the project. 
+
+This program use Mysql for the data persistence. If you don't have this server you can't use successfully the program.
+
+After you have to change the configuration of your Mysql access in the code because it use my credentials to access to my 
+database. The file that you can do this change it's in src/dao/Controller.java. In there you have indications.
+
+
+
 
